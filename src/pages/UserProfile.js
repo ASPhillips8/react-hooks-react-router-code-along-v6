@@ -1,16 +1,16 @@
 import NavBar from "../components/NavBar"
 
-function About() {
+function UserProfile() {
   return (
     <>
       <header>
         <NavBar />
       </header>
       <main>
-        <h1>This is my about component!</h1>
+        <h1>User Profile</h1>
       </main>
     </>
   )
 }
 
-export default About
+export default UserProfile
